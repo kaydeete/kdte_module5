@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: pink;
+}
+
+#twt{
+    background-color: hotpink;
+}
+
+#twt a{
+    color: yellow;
+}
+
+#fb{
+    background-color: cyan;
+}
+
+#fb a{
+    color: darkblue;
+}
+
+#ig{
+    background-color: orange;
+}
+
+#ig a{
+    color: red;
+}
+
+#tt{
+    background-color: beige;
+}
+
+#tt a{
+    color: orange;
+}
+
+#github{
+    background-color: gray;
+}
+#github a{
+    color: black;
+}
+
+.links{
+    border: 1px solid black;
+    display:inline;
+    font-family: 'Racing Sans One', cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: .4s;
+}
+.links:hover{
+    opacity:1;
+    transition:.4s;
+    font-size: larger;
+    font-family: 'Racing Sans One', cursive;
+}
+
+#linksgroup{
+    text-align:center;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.banner
+{
+    background-image: url('images/melk1.jfif');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 400px;
+}
+
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.bannertext h2{
+    text-transform: uppercase;
+    color: darkgreen;
+    font-size: 4em;
+}
+
+.bannertext h2 span{
+    color: brown;
+}
+
+.bannertext p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: brown;
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 500;
+}
